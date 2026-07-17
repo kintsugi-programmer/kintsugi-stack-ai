@@ -1,10 +1,11 @@
 # functions
 '''
 function is block of code designed to perform a perform a specific task
-reduce reduncy
+reduce redundancy, way faster and good than writing same code at multiple times
 avoid mistakes
 more smart coding
-
+saves time
+smart modification 
 '''
 
 # simple example
@@ -60,3 +61,42 @@ add_three(10): the output we get when we run the fuction with 10 as input. when 
 
 # naming functions: use only lowercase_letters,with words seperated by underscores_ instead of spaces.
 
+# complex example
+pay_rate_hr = 15 # 15$ per hr salary
+tax_bracket_dec = .12 # 12% of salary cut to taxes
+def get_pay(num_hours):
+    pay_pretax = num_hours * pay_rate_hr
+    pay_aftertax = pay_pretax * (1- tax_bracket_dec)
+    return pay_aftertax
+
+pay_fulltime = get_pay(40) # calculate pay based on working 40hrs
+print(pay_fulltime) # 528.0
+
+print(get_pay(30))# 396.0
+
+# varibale "scope": part of the code where it is accessible.
+# variables defined inside the fucntion body cannot be accessed outside of the function
+# print(pay_aftertax) # no
+'''
+Traceback (most recent call last):
+  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/03_functions.py", line 79, in <module>
+    print(pay_aftertax)
+          ^^^^^^^^^^^^
+NameError: name 'pay_aftertax' is not defined
+'''
+# local scope vars, eg: pay_aftertax, can't accessed outisde fucntion get_pay()
+# global scope vars, eg: pay_rate_hr, can be accessed anywhere
+
+# function with multiple arguements
+# more generalized, more useful, address more cases, more complicated
+def get_pay_full(num_hours, pay_rate_hr, tax_brac_desc):
+    return ((num_hours*pay_rate_hr)*(1-tax_brac_desc))
+
+print(get_pay_full(40,24,.22))
+# 748.8000000000001
+
+# function with no arguements 
+def print_hello():
+    print("Hello, world !")
+    
+print_hello()# Hello, world !
