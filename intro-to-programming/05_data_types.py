@@ -97,6 +97,28 @@ print(z_two)
 print(type(z_two))
 # <class 'bool'>
 
+# what's happen if we multiple stuff with boolean values'
+print(3 * True)
+print(-3.1 * True)
+print(type("abc" * False))
+print(len("abc" * False))
+# 3
+# -3.1
+# <class 'str'>
+# 0
+
+# boolean arithmetic
+print(False + False)
+print(True + False)
+print(False + True)
+print(True + True)
+print(False + True + True + True)
+# 0
+# 1
+# 1
+# 2
+# 3
+
 # strings
 # represent text
 # collection of char ( alphabet letters, punctuation, numerical digits or symbols)
@@ -129,6 +151,15 @@ print(type(my_number))
 # 1.12321
 # <class 'float'>
 
+print(int(1.2321))
+print(int(1.747))
+print(int(-3.94535))
+print(int(-2.19774))
+# 1
+# 1
+# -3
+# -2
+
 # concatnation of strings
 # adding of strings
 new_string = "abc"+"def"
@@ -155,4 +186,11 @@ Traceback (most recent call last):
 
 TypeError: can't multiply sequence by non-int of type 'float'
 goldern-sword@Siddhants-MacBook-Air intro-to-programming %
-''''
+'''
+
+
+# complex example
+def cost_of_project(engraving, solid_gold):
+    cost = ((not solid_gold) *(50+(len(engraving)*7)))+(solid_gold*(100+(len(engraving)*10)))
+    return cost
+# reason for () at not solid_gold, operator precedence: Python evaluates * before not
