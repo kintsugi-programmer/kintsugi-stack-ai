@@ -116,3 +116,28 @@ print(add_three_or_eight(5))
 print(add_three_or_eight(15))
 # 8
 # 23
+
+# here forgot to put semicolon after if and else and elif
+def get_grade(score):
+    # "A" - any grade 90-100, inclusive
+    # "B" - any grade 80-89, inclusive
+    # "C" - any grade 70-79, inclusive
+    # "D" - any grade 60-69, inclusive
+    # "F" - any grade <60
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else :
+        return "F"
+    
+# here (gb-15)*1000 *0.10 is wrong, ((gb-15)*1000 )*0.10 is write
+def get_phone_bill(gb):
+    if gb<=15:
+        return 100
+    else:
+        return 100 + ((gb-15)*1000 )*0.10
