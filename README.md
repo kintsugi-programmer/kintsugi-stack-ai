@@ -1,5 +1,6 @@
 # kintsugi-stack-ai
 
+- [python](python)
 - [intro-to-programming](intro-to-programming)
 
 ---
@@ -11,6 +12,8 @@
 
 ---
 
+- python (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/python)
+  - [python/01-hello-python.py](python/01-hello-python.py)
 - intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
   - ![alt text](<certifications/Siddhant Bali - Intro to Programming.png>)
   - [intro-to-programming/01_arithmetic_and_variables.py](intro-to-programming/01_arithmetic_and_variables.py)
