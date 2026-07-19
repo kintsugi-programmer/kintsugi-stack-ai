@@ -1,6 +1,7 @@
 # kintsugi-stack-ai
 
-- intro-to-programming (kaggle official course https://www.kaggle.com/learn/intro-to-programming)
+- intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
+  - ![alt text](<certifications/Siddhant Bali - Intro to Programming.png>)
   - [intro-to-programming/01_arithmetic_and_variables.py](intro-to-programming/01_arithmetic_and_variables.py)
   - [intro-to-programming/02_exercise-arithmetic-and-variables.ipynb](intro-to-programming/02_exercise-arithmetic-and-variables.ipynb)
   - [intro-to-programming/03_functions.py](intro-to-programming/03_functions.py)
