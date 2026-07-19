@@ -53,8 +53,8 @@ print("Last entry:", flowers_list[9])
 # to pull the first x entries, you use [:x], and
 # to pull the last y entries, you use [-y:].
 
-print("First three entries:", flowers_list[:3])
-print("Final two entries:", flowers_list[-2:])
+print("First three entries:", flowers_list[:3]) # 0,1,2
+print("Final two entries:", flowers_list[-2:]) # -2,-1
 # First three entries: ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells']
 # Final two entries: ['monkshood', 'globe thistle']
 
@@ -106,3 +106,13 @@ print("Total books sold in one week:", sum(hardcover_sales))
 
 print("Average books sold in first five days:", sum(hardcover_sales[:5])/5)
 # Average books sold in first five days: 153.8
+
+alphabet = "A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z"
+address = "Mr. H. Potter,The cupboard under the Stairs,4 Privet Drive,Little Whinging,Surrey"
+letters = alphabet.split(".")
+formatted_address = address.split(",")
+test_ratings = [1, 2, 3, 4, 5]
+test_liked = [i>=4 for i in test_ratings]
+print(test_liked) # [False, False, False, True, True]
+print(sum(test_liked)) # 2
+print(sum(test_liked)/len(test_liked)) # 0.4
