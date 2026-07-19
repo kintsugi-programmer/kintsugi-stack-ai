@@ -8,3 +8,4 @@
   - [intro-to-programming/05_data_types.py](intro-to-programming/05_data_types.py)
   - [intro-to-programming/06_exercise-data-types.ipynb](intro-to-programming/06_exercise-data-types.ipynb)
   - [intro-to-programming/07_conditions_and_conditional_statements.py](intro-to-programming/07_conditions_and_conditional_statements.py)
+  - [intro-to-programming/08-exercise-conditions-and-conditional-statements.ipynb](intro-to-programming/08-exercise-conditions-and-conditional-statements.ipynb)
