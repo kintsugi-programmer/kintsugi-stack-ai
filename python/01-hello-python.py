@@ -105,3 +105,17 @@ print(int("807")+1)
 # 10.0
 # 3
 # 808
+
+
+'''
+Notebooks are composed of blocks (called "cells") of text and code. Each of these is editable, though you'll mainly be editing the code cells to answer some questions.
+
+swap
+tmp = a
+a = b
+b = tmp
+
+or
+a, b = b, a
+
+'''
