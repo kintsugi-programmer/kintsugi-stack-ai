@@ -15,6 +15,7 @@
 - python (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/python)
   - [python/01-hello-python.py](python/01-hello-python.py)
   - [python/02-exercise-syntax-variables-and-numbers.ipynb](python/02-exercise-syntax-variables-and-numbers.ipynb)
+  - [python/03-functions-and-getting-help.py](python/03-functions-and-getting-help.py)
 - intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
   - [intro-to-programming/01-arithmetic-and-variables.py](intro-to-programming/01-arithmetic-and-variables.py)
   - [intro-to-programming/02-exercise-arithmetic-and-variables.ipynb](intro-to-programming/02-exercise-arithmetic-and-variables.ipynb)
