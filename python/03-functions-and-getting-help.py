@@ -211,3 +211,47 @@ print(
 # 100
 # Which number is the biggest modulo 5?
 # 14
+
+# pass
+def round_to_two_places(num):
+    """Return the given number rounded to two decimal places. 
+    
+    >>> round_to_two_places(3.14159)
+    3.14
+    """
+    # Replace this body with your own code.
+    # ("pass" is a keyword that does literally nothing. We used it as a placeholder
+    # because after we begin a code block, Python requires at least one line of code)
+    pass
+
+def round_to_two_places(num):
+    """Return the given number rounded to two decimal places. 
+    
+    >>> round_to_two_places(3.14159)
+    3.14
+    """
+    # Replace this body with your own code.
+    # ("pass" is a keyword that does literally nothing. We used it as a placeholder
+    # because after we begin a code block, Python requires at least one line of code)
+    # pass
+    return round(num,2)
+
+
+# round()
+print(round(222.444,2))
+print(round(222.444,-2))
+print(round(2222.4444,-3))
+# 222.44
+# 200.0
+# 2000.0
+
+
+
+def to_smash(total_candies, x=3):
+    """Return the number of leftover candies that must be smashed after distributing
+    the given number of candies evenly between x friends. x is optional (default is 3)
+    
+    >>> to_smash(91)
+    1
+    """
+    return total_candies % x
