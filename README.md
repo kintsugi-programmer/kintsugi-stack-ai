@@ -9,7 +9,6 @@
 |:---:|:---:|:---:|
 | ![alt text](<certifications/Siddhant Bali - Intro to Programming.png>) | ![alt text](<certifications/Siddhant Bali - Intro to Programming.png>) | ![alt text](<certifications/Siddhant Bali - Intro to Programming.png>) |
 
-
 ---
 
 - python (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/python)
@@ -18,6 +17,7 @@
   - [python/03-functions-and-getting-help.py](python/03-functions-and-getting-help.py)
   - [python/04-exercise-functions-and-getting-help.ipynb](python/04-exercise-functions-and-getting-help.ipynb)
 - intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
+  - [intro-to-programming/README.md](intro-to-programming/README.md)
   - [intro-to-programming/01-arithmetic-and-variables.py](intro-to-programming/01-arithmetic-and-variables.py)
   - [intro-to-programming/02-exercise-arithmetic-and-variables.ipynb](intro-to-programming/02-exercise-arithmetic-and-variables.ipynb)
   - [intro-to-programming/03-functions.py](intro-to-programming/03-functions.py)
