@@ -2,7 +2,7 @@
 
 
 
-## python/01-hello-python.py
+## python/hello-python.py
 
 ```py
 '''
@@ -22,7 +22,7 @@ viking_song = "Egg " * egg_amt # operator overloading(polymorphism-ish)
 print(viking_song)
 
 # goldern-sword@Siddhants-MacBook-Air kintsugi-stack-ai % python3 -u "/Users/goldern
-# -sword/git/personal/kintsugi-stack-ai/python/01-hello-python.py"
+# -sword/git/personal/kintsugi-stack-ai/python/hello-python.py"
 # But I don't want ANY egg!
 # Egg Egg Egg Egg 
 # goldern-sword@Siddhants-MacBook-Air kintsugi-stack-ai % 
@@ -128,7 +128,7 @@ a, b = b, a
 '''
 ```
 
-## python/03-functions-and-getting-help.py
+## python/functions-and-getting-help.py
 
 ```py
 # help(): help displays 1. Header with arguements. 2. English desc.
@@ -390,7 +390,7 @@ def to_smash(total_candies, x=3):
     return total_candies % x
 ```
 
-## python/05-booleans-and-conditionals.py
+## python/booleans-and-conditionals.py
 
 ```py
 ```

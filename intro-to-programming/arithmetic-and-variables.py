@@ -92,7 +92,7 @@ print(total_secs)
 # common error, typos
 # print(hours_per_da)
 # Traceback (most recent call last):
-#   File "/Users/goldern-sword/git/personal/kaggle-course-intro-to-programming/01_arithmetic_and_variables.py", line 93, in <module>
+#   File "/Users/goldern-sword/git/personal/kaggle-course-intro-to-programming/arithmetic-and-variables.py", line 93, in <module>
 #     print(hours_per_da)
 #           ^^^^^^^^^^^^
 # NameError: name 'hours_per_da' is not defined. Did you mean: 'hours_per_day'?

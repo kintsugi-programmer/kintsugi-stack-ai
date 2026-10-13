@@ -180,7 +180,7 @@ print(type(newest_string))
 # will_not_work = "abc" * 3.
 '''
 Traceback (most recent call last):
-  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/05_data_types.py", line 149, in <module>
+  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/data-types.py", line 149, in <module>
     will_not_work = "abc" * 3.
                     ~~~~~~^~~~
 

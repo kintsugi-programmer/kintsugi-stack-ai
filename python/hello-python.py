@@ -15,7 +15,7 @@ viking_song = "Egg " * egg_amt # operator overloading(polymorphism-ish)
 print(viking_song)
 
 # goldern-sword@Siddhants-MacBook-Air kintsugi-stack-ai % python3 -u "/Users/goldern
-# -sword/git/personal/kintsugi-stack-ai/python/01-hello-python.py"
+# -sword/git/personal/kintsugi-stack-ai/python/hello-python.py"
 # But I don't want ANY egg!
 # Egg Egg Egg Egg 
 # goldern-sword@Siddhants-MacBook-Air kintsugi-stack-ai % 

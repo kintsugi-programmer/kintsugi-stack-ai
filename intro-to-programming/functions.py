@@ -45,7 +45,7 @@ for every function, the parentheses enclosing the function arguemrnt(s) must be 
 # how to run/call a function
 new_number = add_three(10) # run the fucntion with 10 as input
 print(new_number)# crosscheck expected value 13
-# goldern-sword@Siddhants-MacBook-Air intro-to-programming % python3 03_functions.py
+# goldern-sword@Siddhants-MacBook-Air intro-to-programming % python3 functions.py
 # 13
 
 '''
@@ -79,7 +79,7 @@ print(get_pay(30))# 396.0
 # print(pay_aftertax) # no
 '''
 Traceback (most recent call last):
-  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/03_functions.py", line 79, in <module>
+  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/functions.py", line 79, in <module>
     print(pay_aftertax)
           ^^^^^^^^^^^^
 NameError: name 'pay_aftertax' is not defined

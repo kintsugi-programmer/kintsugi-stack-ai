@@ -2,7 +2,7 @@
 
 ![certifications/Siddhant Bali - Intro to Programming.png](<../certifications/Siddhant Bali - Intro to Programming.png>)
 
-## intro-to-programming/01-arithmetic-and-variables.py
+## intro-to-programming/arithmetic-and-variables.py
 
 ```py
 # Python is famous for Data Science and Machine Learning. 
@@ -99,7 +99,7 @@ print(total_secs)
 # common error, typos
 # print(hours_per_da)
 # Traceback (most recent call last):
-#   File "/Users/goldern-sword/git/personal/kaggle-course-intro-to-programming/01_arithmetic_and_variables.py", line 93, in <module>
+#   File "/Users/goldern-sword/git/personal/kaggle-course-intro-to-programming/arithmetic-and-variables.py", line 93, in <module>
 #     print(hours_per_da)
 #           ^^^^^^^^^^^^
 # NameError: name 'hours_per_da' is not defined. Did you mean: 'hours_per_day'?
@@ -107,7 +107,7 @@ print(total_secs)
 print(hours_per_day) #24
 ```
 
-## intro-to-programming/03-functions.py
+## intro-to-programming/functions.py
 
 ```py
 # functions
@@ -157,7 +157,7 @@ for every function, the parentheses enclosing the function arguemrnt(s) must be 
 # how to run/call a function
 new_number = add_three(10) # run the fucntion with 10 as input
 print(new_number)# crosscheck expected value 13
-# goldern-sword@Siddhants-MacBook-Air intro-to-programming % python3 03_functions.py
+# goldern-sword@Siddhants-MacBook-Air intro-to-programming % python3 functions.py
 # 13
 
 '''
@@ -191,7 +191,7 @@ print(get_pay(30))# 396.0
 # print(pay_aftertax) # no
 '''
 Traceback (most recent call last):
-  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/03_functions.py", line 79, in <module>
+  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/functions.py", line 79, in <module>
     print(pay_aftertax)
           ^^^^^^^^^^^^
 NameError: name 'pay_aftertax' is not defined
@@ -214,11 +214,11 @@ def print_hello():
 print_hello()# Hello, world !
 ```
 
-## intro-to-programming/05-data-types.py
+## intro-to-programming/data-types.py
 
 ```
 
-## intro-to-programming/07-conditions-and-conditional-statements.py
+## intro-to-programming/conditions-and-conditional-statements.py
 py
 # datatypes
 
@@ -402,7 +402,7 @@ print(type(newest_string))
 # will_not_work = "abc" * 3.
 '''
 Traceback (most recent call last):
-  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/05_data_types.py", line 149, in <module>
+  File "/Users/goldern-sword/git/personal/kintsugi-stack-ai/intro-to-programming/data-types.py", line 149, in <module>
     will_not_work = "abc" * 3.
                     ~~~~~~^~~~
 
@@ -418,7 +418,7 @@ def cost_of_project(engraving, solid_gold):
 # reason for () at not solid_gold, operator precedence: Python evaluates * before not
 ```
 
-## intro-to-programming/07-conditions-and-conditional-statements.py
+## intro-to-programming/conditions-and-conditional-statements.py
 
 ```py
 # Conditions and Conditional Statements
@@ -566,7 +566,7 @@ def get_phone_bill(gb):
         return 100 + ((gb-15)*1000 )*0.10
 ```
 
-## intro-to-programming/09-intro-to-lists.py
+## intro-to-programming/intro-to-lists.py
 
 ```py
 # Intro to Lists
