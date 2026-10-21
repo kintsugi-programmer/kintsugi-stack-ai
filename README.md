@@ -12,15 +12,10 @@
 ---
 
 - python (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/python)
-  - [python/README.md](python/README.md)
-  - [python/hello-python.py](python/hello-python.py)
   - [python/hello-python.ipynb](python/hello-python.ipynb)
   - [python/exercise-syntax-variables-and-numbers.ipynb](python/exercise-syntax-variables-and-numbers.ipynb)
-  - [python/functions-and-getting-help.py](python/functions-and-getting-help.py)
   - [python/functions-and-getting-help.ipynb](python/functions-and-getting-help.ipynb)
   - [python/exercise-functions-and-getting-help.ipynb](python/exercise-functions-and-getting-help.ipynb)
-  - [python/booleans-and-conditionals.py](python/booleans-and-conditionals.py)
-  - [python/booleans-and-conditionals.ipynb](python/booleans-and-conditionals.ipynb)
 - intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
   - [intro-to-programming/README.md](intro-to-programming/README.md)
   - [intro-to-programming/arithmetic-and-variables.py](intro-to-programming/arithmetic-and-variables.py)
