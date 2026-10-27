@@ -17,6 +17,7 @@
   - [python/functions-and-getting-help.ipynb](python/functions-and-getting-help.ipynb)
   - [python/exercise-functions-and-getting-help.ipynb](python/exercise-functions-and-getting-help.ipynb)
   - [python/booleans-and-conditionals.ipynb](python/booleans-and-conditionals.ipynb)
+  - [python/exercise-booleans-and-conditionals.ipynb](python/exercise-booleans-and-conditionals.ipynb)
 - intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
   - [intro-to-programming/arithmetic-and-variables.ipynb](intro-to-programming/arithmetic-and-variables.ipynb)
   - [intro-to-programming/exercise-arithmetic-and-variables.ipynb](intro-to-programming/exercise-arithmetic-and-variables.ipynb)
