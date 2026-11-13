@@ -19,6 +19,7 @@
   - [python/booleans-and-conditionals.ipynb](python/booleans-and-conditionals.ipynb)
   - [python/exercise-booleans-and-conditionals.ipynb](python/exercise-booleans-and-conditionals.ipynb)
   - [python/lists.ipynb](python/lists.ipynb)
+  - [python/exercise-lists.ipynb](python/exercise-lists.ipynb)
 
 - intro-to-programming (kaggle official course https://www.kaggle.com/learn/certification/siddhantbaliwork/intro-to-programming)
   - [intro-to-programming/arithmetic-and-variables.ipynb](intro-to-programming/arithmetic-and-variables.ipynb)
